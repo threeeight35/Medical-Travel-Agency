@@ -8,11 +8,17 @@
   <meta name="theme-color" content="#0b1f3b">
   
   <!-- Open Graph / Social Sharing -->
-  <meta property="og:title" content="threeeight35° Medical Travel Agency | Your Health Journey, Beyond Borders.">
-  <meta property="og:description" content="Personalised medical travel coordination connecting patients from Australia and international markets with accredited, independent healthcare providers in Türkiye.">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="threeeight35° Medical Travel Agency">
-  <meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="threeeight35° Medical Travel Agency | Your Health Journey, Beyond Borders.">
+<meta property="og:description" content="Personalised medical travel coordination connecting patients from Australia and international markets with accredited, independent healthcare providers in Türkiye.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="threeeight35° Medical Travel Agency">
+<meta property="og:url" content="https://threeeight35.com/medical-travel-agency/">
+<meta property="og:image" content="https://threeeight35.com/medical-travel-agency/images/16_health_journey_istanbul.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="threeeight35° Medical Travel Agency | Your Health Journey, Beyond Borders.">
+<meta name="twitter:description" content="Personalised medical travel coordination connecting patients from Australia and international markets with accredited, independent healthcare providers in Türkiye.">
+<meta name="twitter:image" content="https://threeeight35.com/medical-travel-agency/images/16_health_journey_istanbul.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -466,7 +472,11 @@
     .field-note { font-size:0.75rem; color:rgba(11,31,59,0.6); margin-top:0.35rem; }
     .form-error { color:#9b1c1c; font-size:0.8125rem; font-weight:600; min-height:1.2em; margin-bottom:0.75rem; }
     .hero-grid { display:grid; grid-template-columns:1fr; gap:3rem; align-items:center; }
-    .hero-media { display:none; }
+    .hero-media {
+  display:block;
+  aspect-ratio:16/10;
+  border-radius:1.5rem;
+} 
     @media (min-width:1024px) { .hero-grid { grid-template-columns:minmax(0,1.45fr) minmax(0,1fr); } .hero-media { display:block; aspect-ratio:4/5; border-radius:1.5rem; } }
     /* Photo slots: tonal plate until the approved file exists, then fade the photo in */
     .media-slot { position:relative; overflow:hidden; background:linear-gradient(140deg, #162f52 0%, #0b1f3b 55%, #3a3326 100%); }
